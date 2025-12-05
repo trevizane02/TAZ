@@ -7,7 +7,6 @@ import { marked } from 'marked';
 marked.setOptions({
   breaks: true, // Respeita quebras de linha simples
   gfm: true, // GitHub Flavored Markdown
-  mangle: false, // Não embaralhar emails
 });
 
 const postsDir = path.join(process.cwd(), 'content', 'blog');
