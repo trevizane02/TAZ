@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taz Aviation | Elevated Mobility</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="logo" href="#topo" aria-label="Texas Aviation Zap">
+        <img src="imagens/logo/logo.avif" alt="Logo Taz Texas Aviation Zap" />
+      </a>
+      <nav>
+        <a href="#experiencias" data-i18n="nav.experiencias">Experiências</a>
+        <a href="#solucoes" data-i18n="nav.solucoes">Soluções</a>
+        <a href="#blog" data-i18n="nav.blog">Blog</a>
+      </nav>
+      <div class="header-actions">
+        <button class="btn ghost" data-i18n="nav.contact">Contato</button>
+        <div class="lang-switch" role="group" aria-label="Selecionar idioma">
+          <button type="button" data-lang="pt" aria-pressed="true">PT</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="topo">
+        <div class="hero-video">
+          <iframe
+            src="https://www.youtube.com/embed/16XTAK-4Xbk?autoplay=1&mute=1&controls=0&loop=1&playlist=16XTAK-4Xbk&modestbranding=1&playsinline=1"
+            title="TAZ Aviation hero"
+            frameborder="0"
+            allow="autoplay; encrypted-media; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="hero-gradient" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="label" data-i18n="hero.label">Especialistas em Ferry Flight</p>
+          <h1>
+            <span class="hero-line" data-i18n="hero.titleLine1">Entregamos sua aeronave</span>
+            <span class="hero-highlight" data-i18n="hero.titleHighlight">em qualquer lugar do mundo</span>
+            <span class="hero-line" data-i18n="hero.titleLine2">com cobertura Brasil ↔ EUA</span>
+          </h1>
+          <p class="lead" data-i18n="hero.lead">
+            Receba sua aeronave com rapidez, segurança e o time operacional que acompanha todo o ciclo FlyTaz.
+          </p>
+          <div class="hero-cta">
+            <button class="btn primary" data-i18n="hero.primaryCta">Faça sua cotação agora</button>
+            <button class="btn secondary" data-i18n="hero.secondaryCta">Fale com um especialista</button>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <span>+1200</span>
+              <p data-i18n="hero.stat1">Horas voadas em 2023</p>
+            </div>
+            <div>
+              <span>98%</span>
+              <p data-i18n="hero.stat2">Satisfação dos clientes</p>
+            </div>
+            <div>
+              <span>12</span>
+              <p data-i18n="hero.stat3">Aeronaves em operação</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-transition" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+      </section>
+
+      <section class="grid-section" id="solucoes">
+        <div class="section-header">
+          <p class="label" data-i18n="solutions.label">Frota e soluções</p>
+          <h2 data-i18n="solutions.title">Performance inspirada nos líderes globais</h2>
+          <p data-i18n="solutions.text">
+            Com uma paleta signature Taz e processos modelados nas melhores práticas internacionais, entregamos missões corporativas, charter e logística com eficiência e sofisticação.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card reveal">
+            <p class="eyebrow" data-i18n="solutions.card1.tag">Programas corporativos</p>
+            <h3 data-i18n="solutions.card1.title">Fleet & mission design</h3>
+            <p data-i18n="solutions.card1.text">
+              Células dedicadas, concierge global, controle operacional e previsibilidade financeira em contratos flexíveis.
+            </p>
+            <span class="tag" data-i18n="solutions.card1.badge">Ops 24/7</span>
+          </article>
+          <article class="card reveal">
+            <p class="eyebrow" data-i18n="solutions.card2.tag">Frota exclusiva</p>
+            <h3 data-i18n="solutions.card2.title">Cabines long range</h3>
+            <p data-i18n="solutions.card2.text">
+              Curadoria da linha Global, Challenger e parcerias estratégicas para missões hemisféricas e intercontinentais.
+            </p>
+            <span class="tag" data-i18n="solutions.card2.badge">Jet IQ</span>
+          </article>
+          <article class="card reveal">
+            <p class="eyebrow" data-i18n="solutions.card3.tag">Tecnologia</p>
+            <h3 data-i18n="solutions.card3.title">Digital flight center</h3>
+            <p data-i18n="solutions.card3.text">
+              Telemetria, IA meteorológica e manutenção preditiva conectadas aos nossos times de despacho e safety.
+            </p>
+            <span class="tag" data-i18n="solutions.card3.badge">Data Ops</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="experience" id="experiencias">
+        <div class="section-header">
+          <p class="label" data-i18n="experience.label">Experiência Taz</p>
+          <h2 data-i18n="experience.title">Design sensorial, hospitalidade e precisão</h2>
+          <p data-i18n="experience.text">
+            Do hangar aos lounges signature, cada ponto de contato é coreografado com hospitalidade autoral, bem-estar e integração digital.
+          </p>
+        </div>
+        <div class="experience-media">
+          <div class="layer" aria-hidden="true"></div>
+          <img
+            src="https://static.wixstatic.com/media/92e9f8_2c9add8fa72648388e210b0a9718628f~mv2.jpg/v1/fill/w_900,h_520,al_c,q_80,enc_auto/Texas%20Aviation%20Zap.jpg"
+            alt="Interior aeronave Taz"
+          />
+          <div class="experience-cards">
+            <div>
+              <strong data-i18n="experience.card1.title">Hospitalidade Signature</strong>
+              <p data-i18n="experience.card1.text">Menus, wellness e retail selecionados para cada missão.</p>
+            </div>
+            <div>
+              <strong data-i18n="experience.card2.title">Operação Global</strong>
+              <p data-i18n="experience.card2.text">Acesso imediato a +5000 aeroportos e FBOs parceiros.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="blog" class="blog">
+        <div class="section-header">
+          <p class="label" data-i18n="blog.label">Radar do setor</p>
+          <h2 data-i18n="blog.title">Blog com insights e notícias oficiais</h2>
+          <p data-i18n="blog.text">
+            Atualize clientes e imprensa com estudos, comunicados e movimentos estratégicos da Taz em um feed inspirado no padrão editorial Bombardier.
+          </p>
+        </div>
+        <div class="blog-layout">
+          <div class="blog-grid" id="blogGrid"></div>
+          <aside class="blog-sidebar">
+            <p class="label" data-i18n="blog.sidebarLabel">Tendências</p>
+            <h3 data-i18n="blog.sidebarTitle">Workflow pronto para CMS</h3>
+            <p data-i18n="blog.sidebarText">
+              Conecte esta grade a qualquer API (Contentful, Sanity ou Wix CMS) para automatizar o publishing e manter o time de Comunicação no controle.
+            </p>
+            <button class="btn primary" data-i18n="blog.sidebarCta">Ver cases completos</button>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <div class="logo">TAZ<small>Aviation</small></div>
+        <p data-i18n="footer.copy">© 2024 Taz Aviation. Todos os direitos reservados.</p>
+      </div>
+      <div>
+        <p>+55 11 4002-0890</p>
+        <p>operations@flytaz.com</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
